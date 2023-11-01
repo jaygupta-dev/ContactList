@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="ContactList.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact list</title>
+    <link rel="icon" href="SCREENSHOT-photos/Screenshot-1.png"/>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="mainBox">
+
+            <div id="contactListDiv">
+
+                <div id="contactHead">
+                    <h3>CONTACT LIST</h3>
+                </div>
+
+                <div id="contactList">
+                    <div id="nameDiv">
+                        <p>NAME</p>
+                        <input id="contactName" type="text" placeholder="Enter Name" />
+                    </div>
+
+                    <div id="numberDiv">
+                        <p>NUMBER</p>
+                        <input id="contactNumber" type="number" placeholder="Enter number" />
+                    </div>
+                    <div id="addContactBtn">
+                        <button id="saveContact">✅SAVE CONTACT✅</button>
+                    </div>
+                    <div id="contactNameNumber">
+                        <table id="tableDivHead">
+                            <tr id="tableRowHead">
+                                <th class="sNoColumn">S.NO.</th>
+                                <th class="nameColumn">NAME</th>
+                                <th class="numberColumn">MOBILE NUMBER</th>
+                                <th class="actionColumn">ACTION</th>
+                            </tr>
+                        </table>
+                        <table id="tableDiv">
+                            <!-- <tr id="tableAdding">
+                                <td class="sNoColumn">1</td>
+                                <td class="nameColumn">JAYANENDRA</td>
+                                <td class="numberColumn">9554107570</td>
+                                <td class="editColumn">❌</td>
+                                <td class="deleteColumn">❌</td>
+                            </tr> -->
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="ContactList.js"></script>
+</body>
+
+</html>

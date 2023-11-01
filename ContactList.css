@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/******************************************************************************************/
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: grid;
+    align-items: center;
+    place-content: center;
+
+}
+#mainBox {
+    border: 1px solid red;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px red;
+}
+
+/******************************************************************************************/
+
+#contactHead{
+    text-align: center;
+    background-color: #faebd7;
+    border-radius: 20px 20px 0px 0px;
+}
+#contactList {
+    height: 600px;
+    width: 100%;
+}
+#nameDiv,
+#numberDiv {
+    border: 1px solid red;
+    height: 40px;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+#contactName,
+#contactNumber {
+    width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+    float: left;
+    border: 0px solid red;
+}
+p {
+    border: 1px red solid;
+    height: 100%;
+    width: 95px;
+    padding: 8px;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    background-color: antiquewhite;
+}
+#addContactBtn {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #faebd7;
+}
+#saveContact {
+    height: 40px;
+    width: 40%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #f1dcdc;
+    border: none;
+    border-radius: 10px;
+}
+#contactNameNumber{
+    height: 500px;
+    overflow: auto;
+}
+#tableDiv,#tableDivHead {
+    height: 40px;
+    width: 100%;
+    text-transform: uppercase;
+}
+#tableDivHead{
+    position: sticky;
+    top: -2px;
+    z-index: 555;
+    margin: 0;
+}
+#tableRowHead,#tableAdding {
+    height: 30px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.sNoColumn {
+    width: 41px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.nameColumn {
+    width: 180px;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.numberColumn {
+    width: 140px;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.actionColumn{
+    width: 81px;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.editColumn{
+    width: 40px;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.deleteColumn{
+    width: 40px;
+    /* border-left: 2px solid black; */
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    
+    width: 81px;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+#tableAdding {
+    height: 25px;
+    text-align: center;
+    background-color: rgb(247, 246, 246);
+}
+
+/******************************************************************************************/
+
+@media screen and (max-width:800px) {
+
+    #mainBox{
+        width: 70vw;
+    }
+}
